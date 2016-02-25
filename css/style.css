@@ -13,67 +13,157 @@ body{
     height: 100%;
 }
 header{
-    margin: 0;
+    margin: 2px;
     padding: 0;
-    border: .5rem solid grey;
+    border: .2rem solid lightgray;
     width: 100%;
     height: 80px;
+    font-size: 18px;
 }
 
 #top_bar{
     width: 100%;
-    background-color: aliceblue;
+    background-color:#fff;
     height: 100%;
+    text-transform: uppercase;
     
 }
 #burger{
     margin: 0;
     padding: 0;
     width:calc(100%/3);
-    background-color: antiquewhite;
+    background-color:#fff;
     float: left;
     height: 80%;
+    line-height: 4;
+    color: grey;
+    
+    
 }
 #img_title{
     margin: 0;
     padding: 0;
     width: calc(100%/3);
-    background-color: bisque;
+    background-color: #fff;
     float: left;
     height: 80%;
 }
 #title{
-    width:70%;
+    width:200px;
     display: block;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0;
+    
 }
 
 #app{
     margin:0;
     padding: 0;
     width: calc(100%/3);
-    background-color:antiquewhite;
+    background-color:#fff;
     float: right;
     text-align: right;
     height: 80%;
     line-height: 60px;
+    margin-right: px;
    
-    
 }
+
 #signin{
     margin: 0;
     padding: 0;
-    width: calc(50%/2);
-    background-color:aquamarine;
+    width: calc(60%/2);
+    background-color:#fff;
     float: right;
     height: 100%;
+    background-color: #3fa87e;
+    text-align: center;
+    
+}
+#one{
+    color:#fff;
+    text-decoration: none;
     
 }
 #login{
     margin: 0;
     padding: 0;
-    width: calc(50%/2);
-    background-color: aqua;
+    width: calc(60%/2);
+    background-color: #fff;
     float: right;
     height: 100%;
+    text-align: center;
+}
+#log{
+    color:grey;
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    height: 100%;
+    margin-top:100px;
+    padding: 0;
+    
+}
+
+.main_body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-image: url("http://i.imgur.com/RtIG5AV.jpg");
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size:100%;
+    
+}
+/*begining of the section*/
+#middle_section{
+    position: absolute;
+    top:200px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#quote{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size:32px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: serif bold;
+    font-weight: bold;
+    color: #fff;
+}
+input{
+    margin: 20px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:#fff;
+    color: grey;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+
+
+}
+button{
+    margin: -10px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #3fa87e;
+    border-style: none;
+    
+}
+#plans{
+    font-size: 20px;
+    color:#fff;
+    letter-spacing: 2px;
+    text-decoration: none;
 }
