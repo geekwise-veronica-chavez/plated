@@ -448,6 +448,44 @@ nav>ul>li{
     
 }
 
+@media only screen and (max-width:78rem){
+    .main_body{
+        background-size: cover;
+        
+    } 
+    #bottom_nav{
+        width: 100%;
+      
+    }
+    nav>ul>li{
+        text-align: center;
+        width: calc(100%/5);
+        margin-top: 10px;
+    }
+    #ref_media{
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+        border: none;
+        position: relative;
+    }
+    #tel{
+        
+        text-align: center;
+    }
+    #email{
+        margin-top: 5px;
+        width: 50%
+    }
+    #bottom_left{
+        width:calc(100%/4);
+    }
+    
+    #social_icons{
+       
+    }
+}
+
 /*
 @media only screen and (max-width:78rem){
      #lrg_main{
