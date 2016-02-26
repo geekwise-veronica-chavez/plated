@@ -33,9 +33,9 @@ header{
     
 }
 #burger{
-    margin: 0;
-    padding: 0;
-    width:calc(100%/3);
+    margin-left:8px;
+    padding:0;
+    width:calc(90%/3);
     background-color:#fff;
     float: left;
     height: 80%;
@@ -239,13 +239,16 @@ nav>ul>li{
     float: right;
     width: calc(50%/2);
     letter-spacing: .8px;
+    margin-right: 55px;
     
 }
+
 #email{
     font-size: 18px;
     float: right;
     width: calc(50%/2);
-    letter-spacing: .8px;
+    letter-spacing: 1px;
+    margin-right: 20px
 }
 #a_tel{
     text-decoration: none;
@@ -325,7 +328,7 @@ nav>ul>li{
     #signin{
         width:50%;
         height: 60px;
-        line-height: 60px;
+        line-height: 70px;
     }
     #hamburger{
         visibility: visible;
