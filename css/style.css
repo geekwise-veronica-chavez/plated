@@ -33,8 +33,8 @@ header{
     
 }
 #burger{
-    margin-left:8px;
-    padding:0;
+   
+    padding-left:5px;
     width:calc(90%/3);
     background-color:#fff;
     float: left;
@@ -239,7 +239,7 @@ nav>ul>li{
     float: right;
     width: calc(50%/2);
     letter-spacing: .8px;
-    margin-right: 55px;
+    margin-right: 0;
     
 }
 
@@ -247,7 +247,7 @@ nav>ul>li{
     font-size: 18px;
     float: right;
     width: calc(50%/2);
-    letter-spacing: 1px;
+    letter-spacing:0;
     margin-right: 20px
 }
 #a_tel{
@@ -333,7 +333,8 @@ nav>ul>li{
     #hamburger{
         visibility: visible;
         width: 50px;
-        height: 60px
+        height: 60px;
+        padding: 5px;
     }
     #explore{
         visibility: hidden;
@@ -398,7 +399,7 @@ nav>ul>li{
         width: 100%;
         float: left;
         margin-top: 5px;
-        height: 20px;
+        height: 30px;
         border:none;
 }
     nav>ul>li{ 
@@ -415,14 +416,13 @@ nav>ul>li{
     }
     #tel{
         float: left;
-        width: 50%;
+        width: 40%;
         text-align: center;
     }
     #email{
-        margin-top: 5px;
         text-align: center;
         float: right;
-        width: 50%
+        width: 50%;
     }
     #social_icons{
         width: 100%;
@@ -440,10 +440,10 @@ nav>ul>li{
         
     }
     .bottom_left{
-        margin-left: 60px;
+        margin-left: 20px;
     }
     #bottom_left{
-        width:calc(100%/5);
+        width:calc(100%/4);
         float: left;
         
     }
