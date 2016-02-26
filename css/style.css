@@ -353,7 +353,7 @@ nav>ul>li{
 }
    #middle{
     position: absolute;
-    top:150px;
+    top:200px;
     width: 100%;
     display: block;
     margin: auto;
@@ -371,7 +371,7 @@ nav>ul>li{
     font-weight: bold;
     color: #fff;
 }
-    #input{
+    input{
         width: 150px;
         
     }
